@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collector", "Collector\Collector.csproj", "{87AD38A9-7D56-45E5-B131-64534FAE0435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectorTests", "CollectorTests\CollectorTests.csproj", "{3FB4FD7A-8295-4990-8919-870FA5F438F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87AD38A9-7D56-45E5-B131-64534FAE0435}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{87AD38A9-7D56-45E5-B131-64534FAE0435}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{87AD38A9-7D56-45E5-B131-64534FAE0435}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{87AD38A9-7D56-45E5-B131-64534FAE0435}.Release|AnyCPU.Build.0 = Release|Any CPU
+		{3FB4FD7A-8295-4990-8919-870FA5F438F3}.Debug|AnyCPU.ActiveCfg = Debug|Any CPU
+		{3FB4FD7A-8295-4990-8919-870FA5F438F3}.Debug|AnyCPU.Build.0 = Debug|Any CPU
+		{3FB4FD7A-8295-4990-8919-870FA5F438F3}.Release|AnyCPU.ActiveCfg = Release|Any CPU
+		{3FB4FD7A-8295-4990-8919-870FA5F438F3}.Release|AnyCPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {365EAD9E-1614-4F2F-814E-12B3CD829C97}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Collector": {
+      "commandName": "Project",
+      "commandLineArgs": "--version"
+    }
+  }
+}
