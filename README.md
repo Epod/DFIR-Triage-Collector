@@ -135,6 +135,7 @@ System Root (ie `C:\Windows`):
 * `%SYSTEMROOT%\System32\winevt\Logs\**`
 * `%SYSTEMROOT%\System32\Tasks\**`
 * `%SYSTEMROOT%\System32\Logfiles\W3SVC1\**`
+* `%SYSTEMROOT%\System32\Logfiles\SUM\*.mbd`
 * `%SYSTEMROOT%\Appcompat\Programs\**`
 * `%SYSTEMROOT%\SchedLgU.txt`
 * `%SYSTEMROOT%\inf\setupapi.dev.log`
@@ -173,6 +174,7 @@ User Profiles (ie `C:\Users\*`):
 * `C:\Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\**`
 * `C:\Users\*\AppData\Local\Microsoft\Windows\WebCache\**`
 * `C:\Users\*\AppData\Local\Microsoft\Windows\Explorer\**`
+* `C:\Users\*\AppData\Local\Microsoft\Windows\Terminal Server Client\Cache\**`
 * `C:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat`
 * `C:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1`
 * `C:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2`
