@@ -161,6 +161,7 @@ namespace Collector
                     globPaths.Add(Glob.Parse(systemRoot + @"\System32\winevt\Logs\**"));
                     globPaths.Add(Glob.Parse(systemRoot + @"\System32\Tasks\**"));
                     globPaths.Add(Glob.Parse(systemRoot + @"\System32\LogFiles\W3SVC1\**"));
+                    globPaths.Add(Glob.Parse(systemRoot + @"\System32\Logfiles\SUM\*.mdb"));
                     globPaths.Add(Glob.Parse(systemRoot + @"\Appcompat\Programs\**"));
                     globPaths.Add(Glob.Parse(programData + @"\Microsoft\Windows\Start Menu\Programs\Startup\**"));
                     globPaths.Add(Glob.Parse(systemDrive + @"\$Recycle.Bin\**\$I*"));

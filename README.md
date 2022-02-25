@@ -135,6 +135,7 @@ System Root (ie `C:\Windows`):
 * `%SYSTEMROOT%\System32\winevt\Logs\**`
 * `%SYSTEMROOT%\System32\Tasks\**`
 * `%SYSTEMROOT%\System32\Logfiles\W3SVC1\**`
+* `%SYSTEMROOT%\System32\Logfiles\SUM\*.mbd`
 * `%SYSTEMROOT%\Appcompat\Programs\**`
 * `%SYSTEMROOT%\SchedLgU.txt`
 * `%SYSTEMROOT%\inf\setupapi.dev.log`
