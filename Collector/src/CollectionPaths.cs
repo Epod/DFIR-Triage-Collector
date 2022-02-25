@@ -206,6 +206,7 @@ namespace Collector
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Roaming\Mozilla\Firefox\Profiles\**"));
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\ConnectedDevicesPlatform\**"));
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\Microsoft\Windows\Explorer\**"));
+                        globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\Microsoft\Terminal Server Client\Cache\**"));
 
                         staticPaths.Add($@"{user.ProfilePath}\NTUSER.DAT");
                         staticPaths.Add($@"{user.ProfilePath}\NTUSER.DAT.LOG1");
