@@ -1,0 +1,11 @@
+version = 1
+
+test_patterns = ["Collector/**"]
+
+[[analyzers]]
+name = "secrets"
+enabled = true
+
+[[analyzers]]
+name = "csharp"
+enabled = true
