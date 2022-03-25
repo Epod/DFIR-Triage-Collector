@@ -64,6 +64,10 @@ Usage: -d <path to config file>
 -s
         SFTP Server resolvable hostname or IP address and port. If no port is given then 22 is used by default.  Format is <server name>:<port>
  Usage: -s <ip>:<port>
+ 
+-os
+        Defines the output directory on the SFTP server, as it may be a different location than the ZIP generate on disk. Can be full or relative path.
+ Usage: -os <directory path>
 
 --s3-bucket
         The S3 Bucket URL to write output to.
@@ -76,10 +80,6 @@ Usage: -d <path to config file>
 
 --s3-region
         The region (ie. us-east-1) the S3 Bucket is located in
-
--os
-        Defines the output directory on the SFTP server, as it may be a different location than the ZIP generate on disk. Can be full or relative path.
- Usage: -os <directory path>
 
 --no-uploadcleanup
         Disables the removal of the .zip file used for collection after uploading. Only applies if SFTP or S3 option is enabled.
