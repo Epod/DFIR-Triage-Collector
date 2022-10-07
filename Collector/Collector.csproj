@@ -7,6 +7,7 @@
     <ApplicationIcon>packet.ico</ApplicationIcon>
     <PublishTrimmed>true</PublishTrimmed>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <InvariantGlobalization>true</InvariantGlobalization>
     <PublishReadyToRun>true</PublishReadyToRun>
     <PublishSingleFile>true</PublishSingleFile>
     <PublishReadyToRunShowWarnings>false</PublishReadyToRunShowWarnings>
