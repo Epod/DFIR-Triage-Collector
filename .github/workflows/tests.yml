@@ -47,7 +47,7 @@ jobs:
 
   osxbuild:
     name: OSX Build and Test
-    runs-on: macos-10.15
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
