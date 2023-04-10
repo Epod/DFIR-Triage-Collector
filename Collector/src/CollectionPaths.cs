@@ -167,6 +167,24 @@ namespace Collector
                     globPaths.Add(Glob.Parse(systemDrive + @"\$Recycle.Bin\**\$I*"));
                     globPaths.Add(Glob.Parse(systemDrive + @"\$Recycle.Bin\$I*"));
                     
+                    //Windows Defender Data
+                    globPaths.Add(Glob.Parse(systemRoot + @"\Temp\MpCmdRun.log"));
+                    globPaths.Add(Glob.Parse(programData + @"\Microsoft\Windows Defender\Support\**"));
+                    globPaths.Add(Glob.Parse(programData + @"\Microsoft\Windows Defender\Scans\History\Service\DetectionHistory\**"));
+                    globPaths.Add(Glob.Parse(programData + @"\Microsoft\Microsoft AntiMalware\Support\**"));
+                    //WebRoot
+                    globPaths.Add(Glob.Parse(programData + @"\WRData\WRLog.log"));
+                    //Symantec
+                    globPaths.Add(Glob.Parse(programData + @"\Symantec\Symantec Endpoint Protection\*\Data\Logs\**"));
+                    //Sophos
+                    globPaths.Add(Glob.Parse(programData + @"\Sophos\Sophos *\Logs\**"));
+                    //S1
+                    globPaths.Add(Glob.Parse(programData + @"\sentinel\logs\**"));
+                    //Malwarebytes
+                    globPaths.Add(Glob.Parse(programData + @"\Malwarebytes\Malwarebytes Anti-Malware\Logs\mbam-log-*.xml"));
+                    globPaths.Add(Glob.Parse(programData + @"\Malwarebytes\MBAMService\logs\mbamservice.log*"));
+                    globPaths.Add(Glob.Parse(programData + @"\Malwarebytes\MBAMService\ScanResults\**"));
+                    //System
                     staticPaths.Add(@"%SYSTEMROOT%\SchedLgU.Txt");
                     staticPaths.Add(@"%SYSTEMROOT%\inf\setupapi.dev.log");
                     staticPaths.Add(@"%SYSTEMROOT%\System32\drivers\etc\hosts");
@@ -208,6 +226,11 @@ namespace Collector
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\ConnectedDevicesPlatform\**"));
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\Microsoft\Windows\Explorer\**"));
                         globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\Microsoft\Terminal Server Client\Cache\**"));
+                        
+                        //Symantec AV
+                        globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Local\Symantec\Symantec Endpoint Protection\Logs\**"));
+                        //Malwarebytes
+                        globPaths.Add(Glob.Parse($@"{user.ProfilePath}\AppData\Roaming\Malwarebytes\Malwarebytes Anti-Malware\Logs\**"));
 
                         staticPaths.Add($@"{user.ProfilePath}\NTUSER.DAT");
                         staticPaths.Add($@"{user.ProfilePath}\NTUSER.DAT.LOG1");
